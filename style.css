@@ -12,6 +12,7 @@ header{
 #i1{
     width: 1400px;
     margin: auto;
+    
 }
 
 #ni1 > span{
@@ -78,4 +79,57 @@ section{
     background-color: black;
     color: white;
     margin-top: 70px;
+}
+
+main{
+    margin-top: 170px;
+}
+
+.fbox{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #b1e50e; */
+    gap: 100px;
+
+}
+
+.para>p:first-child{
+    font-size: 22px;
+    color: #494f5e;
+    font-weight: 500;
+    width: 500px;
+    margin-bottom: 60px;
+}
+.para>p:last-child{
+    font-size: 18px;
+    color: #494f5e;
+    width: 500px;
+    
+}
+
+.mat{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 110px;
+}
+
+.mat>div{
+    width: 210px;
+    color: #494b57;
+    font-size: 18px;
+    font-weight: 500;
+
+}
+.mat>div>img{
+    padding-bottom: 30px;
+}
+
+main>div#i1>h1{
+    font-size: 60px;
+    font-weight: 500;
+    margin-left: 110px;
+    color: #494f5e;
+    margin-bottom: 80px;
 }
